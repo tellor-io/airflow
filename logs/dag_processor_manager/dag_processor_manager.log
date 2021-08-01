@@ -1,0 +1,488 @@
+[2021-08-01 15:33:41,892] {dag_processing.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-08-01 15:33:41,918] {dag_processing.py:605} INFO - Process each file at most once every 30 seconds
+[2021-08-01 15:33:41,935] {dag_processing.py:607} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2021-08-01 15:33:41,942] {dag_processing.py:755} INFO - Searching for files in /opt/airflow/dags
+[2021-08-01 15:33:42,102] {dag_processing.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2021-08-01 15:33:42,228] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:33:42,232] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:28:42.231341+00:00
+[2021-08-01 15:33:42,383] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/tellor_reportor.py    834  0.13s             0           0
+================================================================================
+[2021-08-01 15:33:52,486] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:33:52,490] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:28:52.490462+00:00
+[2021-08-01 15:34:02,602] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:34:02,606] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:29:02.605933+00:00
+[2021-08-01 15:34:12,673] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:34:12,678] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:29:12.677528+00:00
+[2021-08-01 15:34:12,714] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  16.84s          2021-08-01T15:33:59
+================================================================================
+[2021-08-01 15:34:22,748] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:34:22,751] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:29:22.751527+00:00
+[2021-08-01 15:34:32,809] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:34:32,823] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:29:32.823376+00:00
+[2021-08-01 15:34:42,790] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  8.61s           2021-08-01T15:34:37
+================================================================================
+[2021-08-01 15:34:43,218] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:34:43,223] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:29:43.222875+00:00
+[2021-08-01 15:34:53,267] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:34:53,271] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:29:53.271244+00:00
+[2021-08-01 15:35:03,331] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:35:03,338] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:30:03.338531+00:00
+[2021-08-01 15:35:13,056] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   1478  5.08s             0           1  8.61s           2021-08-01T15:34:37
+================================================================================
+[2021-08-01 15:35:13,530] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:35:13,549] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:30:13.549054+00:00
+[2021-08-01 15:35:23,764] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:35:23,778] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:30:23.777681+00:00
+[2021-08-01 15:35:33,932] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:35:33,943] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:30:33.943217+00:00
+[2021-08-01 15:35:43,257] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  17.88s          2021-08-01T15:35:25
+================================================================================
+[2021-08-01 15:35:44,005] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:35:44,007] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:30:44.007760+00:00
+[2021-08-01 15:35:54,059] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:35:54,074] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:30:54.072364+00:00
+[2021-08-01 15:36:04,237] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:36:04,254] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:31:04.254103+00:00
+[2021-08-01 15:36:13,394] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  9.74s           2021-08-01T15:36:05
+================================================================================
+[2021-08-01 15:36:14,400] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:36:14,403] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:31:14.403759+00:00
+[2021-08-01 15:36:24,467] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:36:24,473] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:31:24.473113+00:00
+[2021-08-01 15:36:34,526] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:36:34,529] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:31:34.529263+00:00
+[2021-08-01 15:36:45,714] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   2130  9.05s             0           1  9.74s           2021-08-01T15:36:05
+================================================================================
+[2021-08-01 15:36:45,774] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:36:45,781] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:31:45.781655+00:00
+[2021-08-01 15:36:56,807] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:36:56,818] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:31:56.818038+00:00
+[2021-08-01 15:37:06,909] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:37:06,914] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:32:06.913918+00:00
+[2021-08-01 15:37:15,981] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  14.87s          2021-08-01T15:36:50
+================================================================================
+[2021-08-01 15:37:16,988] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:37:16,994] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:32:16.994006+00:00
+[2021-08-01 15:37:27,068] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:37:27,073] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:32:27.072959+00:00
+[2021-08-01 15:37:37,177] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:37:37,181] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:32:37.181428+00:00
+[2021-08-01 15:37:46,261] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  8.10s           2021-08-01T15:37:29
+================================================================================
+[2021-08-01 15:37:47,270] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:37:47,280] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:32:47.280070+00:00
+[2021-08-01 15:37:57,409] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:37:57,417] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:32:57.416900+00:00
+[2021-08-01 15:38:07,547] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:38:07,554] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:33:07.553957+00:00
+[2021-08-01 15:38:08,962] {dag_processing.py:585} INFO - Exiting gracefully upon receiving signal 15
+[2021-08-01 15:42:21,568] {dag_processing.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-08-01 15:42:21,582] {dag_processing.py:605} INFO - Process each file at most once every 30 seconds
+[2021-08-01 15:42:21,586] {dag_processing.py:607} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2021-08-01 15:42:21,592] {dag_processing.py:755} INFO - Searching for files in /opt/airflow/dags
+[2021-08-01 15:42:21,756] {dag_processing.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2021-08-01 15:42:22,027] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:42:22,041] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:37:22.040965+00:00
+[2021-08-01 15:42:22,346] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/tellor_reportor.py    221  0.26s             0           0
+================================================================================
+[2021-08-01 15:42:32,466] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:42:32,484] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:37:32.484548+00:00
+[2021-08-01 15:42:42,700] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:42:42,708] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:37:42.708416+00:00
+[2021-08-01 15:42:53,273] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:42:53,283] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:37:53.283185+00:00
+[2021-08-01 15:42:53,420] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  27.23s          2021-08-01T15:42:49
+================================================================================
+[2021-08-01 15:43:03,477] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:43:03,481] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:38:03.481694+00:00
+[2021-08-01 15:43:13,621] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:43:13,627] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:38:13.626881+00:00
+[2021-08-01 15:43:23,782] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:43:23,793] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:38:23.793255+00:00
+[2021-08-01 15:43:23,881] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py    557  4.15s             0           1  27.23s          2021-08-01T15:42:49
+================================================================================
+[2021-08-01 15:43:33,964] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:43:33,988] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:38:33.980533+00:00
+[2021-08-01 15:43:44,436] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:43:44,453] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:38:44.452889+00:00
+[2021-08-01 15:43:54,605] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:43:54,611] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:38:54.611026+00:00
+[2021-08-01 15:43:54,710] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  23.84s          2021-08-01T15:43:43
+================================================================================
+[2021-08-01 15:44:04,747] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:44:04,752] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:39:04.752179+00:00
+[2021-08-01 15:44:14,858] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:44:14,862] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:39:14.862462+00:00
+[2021-08-01 15:44:24,976] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:44:24,980] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:39:24.980619+00:00
+[2021-08-01 15:44:25,000] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  7.77s           2021-08-01T15:44:21
+================================================================================
+[2021-08-01 15:44:35,030] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:44:35,032] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:39:35.032785+00:00
+[2021-08-01 15:44:45,082] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:44:45,086] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:39:45.086569+00:00
+[2021-08-01 15:44:55,134] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:44:55,138] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:39:55.138168+00:00
+[2021-08-01 15:44:55,158] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   1199  3.43s             0           1  7.77s           2021-08-01T15:44:21
+================================================================================
+[2021-08-01 15:45:05,208] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:45:05,212] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:40:05.212022+00:00
+[2021-08-01 15:45:15,267] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:45:15,270] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:40:15.270426+00:00
+[2021-08-01 15:45:25,391] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:45:25,398] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:40:25.398204+00:00
+[2021-08-01 15:45:25,438] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  6.98s           2021-08-01T15:44:58
+================================================================================
+[2021-08-01 15:45:35,476] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:45:35,480] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:40:35.480558+00:00
+[2021-08-01 15:45:45,966] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:45:45,973] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:40:45.972736+00:00
+[2021-08-01 15:45:55,461] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  7.49s           2021-08-01T15:45:36
+================================================================================
+[2021-08-01 15:45:56,017] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:45:56,020] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:40:56.020249+00:00
+[2021-08-01 15:46:06,074] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:46:06,079] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:41:06.079015+00:00
+[2021-08-01 15:46:16,147] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:46:16,151] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:41:16.150994+00:00
+[2021-08-01 15:46:26,203] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:46:26,207] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:41:26.207109+00:00
+[2021-08-01 15:46:26,231] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  6.71s           2021-08-01T15:46:13
+================================================================================
+[2021-08-01 15:46:36,282] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:46:36,286] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:41:36.286806+00:00
+[2021-08-01 15:46:46,354] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:46:46,359] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:41:46.359400+00:00
+[2021-08-01 15:46:56,422] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:46:56,428] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:41:56.427790+00:00
+[2021-08-01 15:46:56,460] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  7.62s           2021-08-01T15:46:50
+================================================================================
+[2021-08-01 15:47:06,504] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:47:06,508] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:42:06.507981+00:00
+[2021-08-01 15:47:16,566] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:47:16,572] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:42:16.572191+00:00
+[2021-08-01 15:47:21,629] {dag_processing.py:755} INFO - Searching for files in /opt/airflow/dags
+[2021-08-01 15:47:21,717] {dag_processing.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2021-08-01 15:47:26,804] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:47:26,810] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:42:26.809443+00:00
+[2021-08-01 15:47:26,925] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   2473  5.83s             0           1  7.62s           2021-08-01T15:46:50
+================================================================================
+[2021-08-01 15:47:37,161] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:47:37,164] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:42:37.164562+00:00
+[2021-08-01 15:47:47,224] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:47:47,235] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:42:47.234758+00:00
+[2021-08-01 15:47:57,489] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:47:57,613] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:42:57.613064+00:00
+[2021-08-01 15:47:57,858] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  9.17s           2021-08-01T15:47:30
+================================================================================
+[2021-08-01 15:48:08,095] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:48:08,108] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:43:08.108400+00:00
+[2021-08-01 15:48:18,512] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:48:18,534] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:43:18.534134+00:00
+[2021-08-01 15:48:28,712] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:48:28,722] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:43:28.721931+00:00
+[2021-08-01 15:48:28,770] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  15.42s          2021-08-01T15:48:16
+================================================================================
+[2021-08-01 15:48:39,152] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:48:39,158] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:43:39.158549+00:00
+[2021-08-01 15:48:49,367] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:48:49,379] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:43:49.378839+00:00
+[2021-08-01 15:48:59,435] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   3114  11.95s            0           1  15.42s          2021-08-01T15:48:16
+================================================================================
+[2021-08-01 15:49:00,523] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:49:00,590] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:44:00.589685+00:00
+[2021-08-01 15:49:11,737] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:49:12,021] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:44:12.020745+00:00
+[2021-08-01 15:49:23,451] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:49:23,518] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:44:23.518011+00:00
+[2021-08-01 15:49:29,987] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  33.08s          2021-08-01T15:49:20
+================================================================================
+[2021-08-01 15:49:34,026] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:49:34,036] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:44:34.035850+00:00
+[2021-08-01 15:49:44,371] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:49:44,419] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:44:44.417138+00:00
+[2021-08-01 15:49:54,971] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:49:55,053] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:44:55.052689+00:00
+[2021-08-01 15:50:01,226] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   3318  9.86s             0           1  33.08s          2021-08-01T15:49:20
+================================================================================
+[2021-08-01 15:50:06,678] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:50:06,698] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:45:06.698507+00:00
+[2021-08-01 15:50:18,152] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:50:18,205] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:45:18.205261+00:00
+[2021-08-01 15:50:28,530] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:50:28,563] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:45:28.563355+00:00
+[2021-08-01 15:50:32,078] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  33.46s          2021-08-01T15:50:24
+================================================================================
+[2021-08-01 15:50:39,136] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:50:39,141] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:45:39.141185+00:00
+[2021-08-01 15:50:49,385] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:50:49,400] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:45:49.399665+00:00
+[2021-08-01 15:50:59,579] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:50:59,587] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:45:59.586961+00:00
+[2021-08-01 15:51:02,800] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   3459  7.18s             0           1  33.46s          2021-08-01T15:50:24
+================================================================================
+[2021-08-01 15:51:09,899] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:51:09,908] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:46:09.908035+00:00
+[2021-08-01 15:51:20,049] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:51:20,071] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:46:20.071177+00:00
+[2021-08-01 15:51:30,159] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:51:30,164] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:46:30.163628+00:00
+[2021-08-01 15:51:33,203] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  20.83s          2021-08-01T15:51:16
+================================================================================
+[2021-08-01 15:51:40,233] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:51:40,238] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:46:40.238105+00:00
+[2021-08-01 15:51:50,292] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:51:50,296] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:46:50.296624+00:00
+[2021-08-01 15:52:00,376] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:52:00,383] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:47:00.382828+00:00
+[2021-08-01 15:52:03,428] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  7.82s           2021-08-01T15:51:54
+================================================================================
+[2021-08-01 15:52:10,453] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:52:10,458] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:47:10.457794+00:00
+[2021-08-01 15:52:20,520] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:52:20,538] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:47:20.538033+00:00
+[2021-08-01 15:52:22,612] {dag_processing.py:755} INFO - Searching for files in /opt/airflow/dags
+[2021-08-01 15:52:22,765] {dag_processing.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2021-08-01 15:52:30,883] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:52:30,894] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:47:30.893869+00:00
+[2021-08-01 15:52:34,028] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  8.42s           2021-08-01T15:52:33
+================================================================================
+[2021-08-01 15:52:41,090] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:52:41,103] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:47:41.102185+00:00
+[2021-08-01 15:52:51,203] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:52:51,219] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:47:51.218845+00:00
+[2021-08-01 15:53:01,340] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:53:01,357] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:48:01.357135+00:00
+[2021-08-01 15:53:04,440] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py   4412  1.02s             0           1  8.42s           2021-08-01T15:52:33
+================================================================================
+[2021-08-01 15:53:11,468] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:53:11,473] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:48:11.473098+00:00
+[2021-08-01 15:53:21,572] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:53:21,577] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:48:21.577476+00:00
+[2021-08-01 15:53:31,627] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:53:31,634] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:48:31.634064+00:00
+[2021-08-01 15:53:34,700] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  6.84s           2021-08-01T15:53:10
+================================================================================
+[2021-08-01 15:53:41,740] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:53:41,744] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:48:41.744817+00:00
+[2021-08-01 15:53:51,800] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:53:51,806] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:48:51.805869+00:00
+[2021-08-01 15:54:02,263] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:54:02,276] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:49:02.275767+00:00
+[2021-08-01 15:54:05,332] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  7.79s           2021-08-01T15:53:48
+================================================================================
+[2021-08-01 15:54:12,365] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:54:12,374] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:49:12.374143+00:00
+[2021-08-01 15:54:22,476] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:54:22,480] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:49:22.480120+00:00
+[2021-08-01 15:54:32,553] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:54:32,557] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:49:32.557314+00:00
+[2021-08-01 15:54:35,608] {dag_processing.py:862} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tellor_reportor.py                           0           1  6.56s           2021-08-01T15:54:25
+================================================================================
+[2021-08-01 15:54:42,668] {dag_processing.py:1129} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-01 15:54:42,671] {dag_processing.py:1133} INFO - Failing jobs without heartbeat after 2021-08-01 15:49:42.671533+00:00
+[2021-08-01 15:54:44,198] {dag_processing.py:585} INFO - Exiting gracefully upon receiving signal 15
