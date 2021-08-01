@@ -1,0 +1,511 @@
+[2021-08-01 15:33:42,268] {scheduler_job.py:182} INFO - Started process (PID=834) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:33:42,280] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:33:42,292] {logging_mixin.py:104} INFO - [2021-08-01 15:33:42,291] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:33:43,168] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:33:58,859] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:33:58,901] {logging_mixin.py:104} INFO - [2021-08-01 15:33:58,864] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:33:58,910] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:33:59,000] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 16.748 seconds
+[2021-08-01 15:34:29,211] {scheduler_job.py:182} INFO - Started process (PID=1165) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:34:29,218] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:34:29,228] {logging_mixin.py:104} INFO - [2021-08-01 15:34:29,222] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:34:29,828] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:34:37,668] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:34:37,685] {logging_mixin.py:104} INFO - [2021-08-01 15:34:37,672] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:34:37,688] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:34:37,747] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 8.552 seconds
+[2021-08-01 15:35:08,093] {scheduler_job.py:182} INFO - Started process (PID=1478) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:35:08,116] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:35:08,132] {logging_mixin.py:104} INFO - [2021-08-01 15:35:08,131] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:35:09,663] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:35:25,617] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:35:25,654] {logging_mixin.py:104} INFO - [2021-08-01 15:35:25,621] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:35:25,662] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:35:25,780] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 17.740 seconds
+[2021-08-01 15:35:56,377] {scheduler_job.py:182} INFO - Started process (PID=1797) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:35:56,385] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:35:56,395] {logging_mixin.py:104} INFO - [2021-08-01 15:35:56,393] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:35:57,235] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:36:05,680] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:36:05,747] {logging_mixin.py:104} INFO - [2021-08-01 15:36:05,685] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:36:05,759] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:36:05,862] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 9.527 seconds
+[2021-08-01 15:36:36,039] {scheduler_job.py:182} INFO - Started process (PID=2130) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:36:36,043] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:36:36,046] {logging_mixin.py:104} INFO - [2021-08-01 15:36:36,046] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:36:36,326] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:36:50,715] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:36:50,740] {logging_mixin.py:104} INFO - [2021-08-01 15:36:50,719] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:36:50,749] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:36:50,810] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 14.777 seconds
+[2021-08-01 15:37:21,097] {scheduler_job.py:182} INFO - Started process (PID=2447) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:37:21,114] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:37:21,151] {logging_mixin.py:104} INFO - [2021-08-01 15:37:21,150] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:37:21,689] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:37:29,060] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:37:29,079] {logging_mixin.py:104} INFO - [2021-08-01 15:37:29,063] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:37:29,083] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:37:29,116] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 8.037 seconds
+[2021-08-01 15:37:59,473] {scheduler_job.py:182} INFO - Started process (PID=2757) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:37:59,477] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:37:59,480] {logging_mixin.py:104} INFO - [2021-08-01 15:37:59,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:37:59,742] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:38:08,534] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:38:08,576] {logging_mixin.py:104} INFO - [2021-08-01 15:38:08,538] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:38:08,608] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:38:08,773] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 9.307 seconds
+[2021-08-01 15:42:22,090] {scheduler_job.py:182} INFO - Started process (PID=221) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:42:22,113] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:42:22,137] {logging_mixin.py:104} INFO - [2021-08-01 15:42:22,137] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:42:23,406] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:42:48,720] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:42:48,807] {logging_mixin.py:104} INFO - [2021-08-01 15:42:48,739] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:42:48,822] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:42:49,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 27.010 seconds
+[2021-08-01 15:43:19,913] {scheduler_job.py:182} INFO - Started process (PID=557) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:43:19,924] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:43:19,942] {logging_mixin.py:104} INFO - [2021-08-01 15:43:19,933] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:43:22,047] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:43:43,367] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:43:43,417] {logging_mixin.py:104} INFO - [2021-08-01 15:43:43,378] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:43:43,422] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:43:43,489] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 23.620 seconds
+[2021-08-01 15:44:13,901] {scheduler_job.py:182} INFO - Started process (PID=885) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:44:13,908] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:44:13,913] {logging_mixin.py:104} INFO - [2021-08-01 15:44:13,912] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:44:14,260] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:44:21,544] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:44:21,563] {logging_mixin.py:104} INFO - [2021-08-01 15:44:21,548] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:44:21,566] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:44:21,594] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 7.705 seconds
+[2021-08-01 15:44:51,749] {scheduler_job.py:182} INFO - Started process (PID=1199) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:44:51,754] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:44:51,757] {logging_mixin.py:104} INFO - [2021-08-01 15:44:51,757] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:44:52,106] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:44:58,617] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:44:58,633] {logging_mixin.py:104} INFO - [2021-08-01 15:44:58,620] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:44:58,636] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:44:58,666] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 6.927 seconds
+[2021-08-01 15:45:28,912] {scheduler_job.py:182} INFO - Started process (PID=1513) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:45:28,917] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:45:28,920] {logging_mixin.py:104} INFO - [2021-08-01 15:45:28,920] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:45:29,202] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:45:36,294] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:45:36,314] {logging_mixin.py:104} INFO - [2021-08-01 15:45:36,298] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:45:36,319] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:45:36,352] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 7.446 seconds
+[2021-08-01 15:46:06,533] {scheduler_job.py:182} INFO - Started process (PID=1843) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:46:06,537] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:46:06,541] {logging_mixin.py:104} INFO - [2021-08-01 15:46:06,540] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:46:06,823] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:46:13,149] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:46:13,169] {logging_mixin.py:104} INFO - [2021-08-01 15:46:13,153] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:46:13,172] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:46:13,200] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 6.673 seconds
+[2021-08-01 15:46:43,353] {scheduler_job.py:182} INFO - Started process (PID=2161) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:46:43,359] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:46:43,361] {logging_mixin.py:104} INFO - [2021-08-01 15:46:43,361] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:46:43,593] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:46:50,836] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:46:50,856] {logging_mixin.py:104} INFO - [2021-08-01 15:46:50,840] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:46:50,863] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:46:50,922] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 7.575 seconds
+[2021-08-01 15:47:21,151] {scheduler_job.py:182} INFO - Started process (PID=2473) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:47:21,156] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:47:21,160] {logging_mixin.py:104} INFO - [2021-08-01 15:47:21,158] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:47:21,442] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:47:30,173] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:47:30,192] {logging_mixin.py:104} INFO - [2021-08-01 15:47:30,177] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:47:30,197] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:47:30,233] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 9.099 seconds
+[2021-08-01 15:48:01,096] {scheduler_job.py:182} INFO - Started process (PID=2783) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:48:01,106] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:48:01,110] {logging_mixin.py:104} INFO - [2021-08-01 15:48:01,110] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:48:01,623] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:48:16,118] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:48:16,157] {logging_mixin.py:104} INFO - [2021-08-01 15:48:16,125] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:48:16,164] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:48:16,281] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 15.200 seconds
+[2021-08-01 15:48:47,669] {scheduler_job.py:182} INFO - Started process (PID=3114) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:48:47,683] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:48:47,705] {logging_mixin.py:104} INFO - [2021-08-01 15:48:47,701] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:48:48,765] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:49:18,157] {logging_mixin.py:104} INFO - [2021-08-01 15:49:17,808] {timeout.py:36} ERROR - Process timed out, PID: 3114
+[2021-08-01 15:49:18,553] {logging_mixin.py:104} INFO - [2021-08-01 15:49:18,260] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 19, in <module>
+    from airflow_ethereum.web3_hook import Web3Hook
+  File "/opt/airflow/dags/airflow_ethereum/web3_hook.py", line 2, in <module>
+    from web3 import Web3, HTTPProvider
+  File "/home/airflow/.local/lib/python3.6/site-packages/web3/__init__.py", line 6, in <module>
+    from eth_account import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_account/__init__.py", line 1, in <module>
+    from eth_account.account import (  # noqa: F401
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_account/account.py", line 11, in <module>
+    from eth_keyfile import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_keyfile/__init__.py", line 7, in <module>
+    from eth_keyfile.keyfile import (  # noqa: F401
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_keyfile/keyfile.py", line 6, in <module>
+    from Crypto.Cipher import AES
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Cipher/__init__.py", line 35, in <module>
+    from Crypto.Cipher._mode_siv import _create_siv_cipher
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Cipher/_mode_siv.py", line 44, in <module>
+    from Crypto.Protocol.KDF import _S2V
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Protocol/KDF.py", line 32, in <module>
+    from Crypto.Hash import SHA1, SHA256, HMAC, CMAC, BLAKE2s
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Hash/SHA256.py", line 47, in <module>
+    """)
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Util/_raw_api.py", line 294, in load_pycryptodome_raw_lib
+    cdecl)
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Util/_raw_api.py", line 96, in load_lib
+    ffi.cdef(cdecl)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/api.py", line 112, in cdef
+    self._cdef(csource, override=override, packed=packed, pack=pack)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/api.py", line 126, in _cdef
+    self._parser.parse(csource, override=override, **options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/cparser.py", line 389, in parse
+    self._internal_parse(csource)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/cparser.py", line 394, in _internal_parse
+    ast, macros, csource = self._parse(csource)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/cparser.py", line 336, in _parse
+    ast = _get_parser().parse(fullcsource)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pycparser/c_parser.py", line 152, in parse
+    debug=debuglevel)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1148, in parseopt_notrack
+    pslice.slice = targ
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tellor_reportor.py after 30.0s, PID: 3114
+[2021-08-01 15:49:18,592] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:49:19,477] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 31.872 seconds
+[2021-08-01 15:49:52,191] {scheduler_job.py:182} INFO - Started process (PID=3318) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:49:52,329] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:49:52,409] {logging_mixin.py:104} INFO - [2021-08-01 15:49:52,376] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:50:00,357] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:50:22,939] {logging_mixin.py:104} INFO - [2021-08-01 15:50:22,651] {timeout.py:36} ERROR - Process timed out, PID: 3318
+[2021-08-01 15:50:23,481] {logging_mixin.py:104} INFO - [2021-08-01 15:50:23,172] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 19, in <module>
+    from airflow_ethereum.web3_hook import Web3Hook
+  File "/opt/airflow/dags/airflow_ethereum/web3_hook.py", line 2, in <module>
+    from web3 import Web3, HTTPProvider
+  File "/home/airflow/.local/lib/python3.6/site-packages/web3/__init__.py", line 6, in <module>
+    from eth_account import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_account/__init__.py", line 1, in <module>
+    from eth_account.account import (  # noqa: F401
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_account/account.py", line 11, in <module>
+    from eth_keyfile import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_keyfile/__init__.py", line 7, in <module>
+    from eth_keyfile.keyfile import (  # noqa: F401
+  File "/home/airflow/.local/lib/python3.6/site-packages/eth_keyfile/keyfile.py", line 6, in <module>
+    from Crypto.Cipher import AES
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Cipher/__init__.py", line 31, in <module>
+    from Crypto.Cipher._mode_ctr import _create_ctr_cipher
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Cipher/_mode_ctr.py", line 56, in <module>
+    int CTR_stop_operation(void *ctrState);"""
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Util/_raw_api.py", line 294, in load_pycryptodome_raw_lib
+    cdecl)
+  File "/home/airflow/.local/lib/python3.6/site-packages/Crypto/Util/_raw_api.py", line 95, in load_lib
+    lib = ffi.dlopen(name)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/api.py", line 150, in dlopen
+    lib, function_cache = _make_ffi_library(self, name, flags)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/api.py", line 832, in _make_ffi_library
+    backendlib = _load_backend_lib(backend, libname, flags)
+  File "/home/airflow/.local/lib/python3.6/site-packages/cffi/api.py", line 818, in _load_backend_lib
+    path = ctypes.util.find_library(name)
+  File "/usr/local/lib/python3.6/ctypes/util.py", line 303, in find_library
+    _get_soname(_findLib_gcc(name) or _findLib_ld(name))
+  File "/usr/local/lib/python3.6/ctypes/util.py", line 112, in _findLib_gcc
+    env=env)
+  File "/usr/local/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/local/lib/python3.6/subprocess.py", line 1318, in _execute_child
+    part = os.read(errpipe_read, 50000)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tellor_reportor.py after 30.0s, PID: 3318
+[2021-08-01 15:50:23,507] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:50:24,230] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 32.214 seconds
+[2021-08-01 15:50:55,655] {scheduler_job.py:182} INFO - Started process (PID=3459) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:50:55,665] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:50:55,673] {logging_mixin.py:104} INFO - [2021-08-01 15:50:55,672] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:50:56,309] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:51:15,882] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:51:15,983] {logging_mixin.py:104} INFO - [2021-08-01 15:51:15,908] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:51:15,999] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:51:16,143] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 20.511 seconds
+[2021-08-01 15:51:46,627] {scheduler_job.py:182} INFO - Started process (PID=3789) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:51:46,635] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:51:46,644] {logging_mixin.py:104} INFO - [2021-08-01 15:51:46,642] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:51:47,042] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:51:54,271] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:51:54,287] {logging_mixin.py:104} INFO - [2021-08-01 15:51:54,274] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:51:54,291] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:51:54,324] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 7.716 seconds
+[2021-08-01 15:52:24,924] {scheduler_job.py:182} INFO - Started process (PID=4100) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:52:24,936] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:52:24,941] {logging_mixin.py:104} INFO - [2021-08-01 15:52:24,941] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:52:25,442] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:52:33,050] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:52:33,098] {logging_mixin.py:104} INFO - [2021-08-01 15:52:33,058] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:52:33,151] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:52:33,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 8.335 seconds
+[2021-08-01 15:53:03,480] {scheduler_job.py:182} INFO - Started process (PID=4412) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:53:03,483] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:53:03,486] {logging_mixin.py:104} INFO - [2021-08-01 15:53:03,486] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:53:03,786] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:53:10,178] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:53:10,194] {logging_mixin.py:104} INFO - [2021-08-01 15:53:10,181] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:53:10,198] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:53:10,232] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 6.761 seconds
+[2021-08-01 15:53:40,472] {scheduler_job.py:182} INFO - Started process (PID=4745) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:53:40,477] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:53:40,481] {logging_mixin.py:104} INFO - [2021-08-01 15:53:40,480] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:53:40,740] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:53:48,128] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:53:48,147] {logging_mixin.py:104} INFO - [2021-08-01 15:53:48,132] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 20, in <module>
+    from airflow_ethereum.ethereum_transaction_confirmation_sensor import EthereumTransactionConfirmationSensor
+  File "/opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:53:48,172] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:53:48,209] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 7.744 seconds
+[2021-08-01 15:54:18,488] {scheduler_job.py:182} INFO - Started process (PID=5060) to work on /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:54:18,493] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tellor_reportor.py for tasks to queue
+[2021-08-01 15:54:18,497] {logging_mixin.py:104} INFO - [2021-08-01 15:54:18,496] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:54:18,749] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/web3_hook.py:1 DeprecationWarning: This module is deprecated. Please use `airflow.hooks.base`.
+[2021-08-01 15:54:24,824] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:2 DeprecationWarning: This module is deprecated. Please use `airflow.sensors.base`.
+[2021-08-01 15:54:24,845] {logging_mixin.py:104} WARNING - /opt/airflow/dags/airflow_ethereum/ethereum_transaction_confirmation_sensor.py:7 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-08-01 15:54:24,903] {logging_mixin.py:104} INFO - [2021-08-01 15:54:24,885] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/tellor_reportor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tellor_reportor.py", line 21, in <module>
+    from airflow_ethereum.tellor_oracle_operator import TellorOracleOperator
+  File "/opt/airflow/dags/airflow_ethereum/tellor_oracle_operator.py", line 3, in <module>
+    from blocksec_plugin.web3_hook import Web3Hook
+ModuleNotFoundError: No module named 'blocksec_plugin'
+[2021-08-01 15:54:24,916] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/tellor_reportor.py
+[2021-08-01 15:54:24,979] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tellor_reportor.py took 6.500 seconds
