@@ -1,7 +1,7 @@
 from airflow.utils.decorators import apply_defaults
 from airflow.sensors.base_sensor_operator import BaseSensorOperator
-from blocksec_plugin.web3_hook import Web3Hook
-from blocksec_plugin.ethereum_wallet_hook import EthereumWalletHook
+from airflow_ethereum.web3_hook import Web3Hook
+from airflow_ethereum.ethereum_wallet_hook import EthereumWalletHook
 from web3.exceptions import TransactionNotFound
 
 class EthereumTransactionConfirmationSensor(BaseSensorOperator):
